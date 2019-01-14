@@ -133,6 +133,7 @@ p {
     margin-top: 65px;
 }
 
+/** ----------------------------Adjust Get Started------------------- **/
 .container .start {
     text-align: center;
     margin-top: 10px;
@@ -140,7 +141,16 @@ p {
     background-color: 0058a8;
 }
 
--------------------------------------------------------------------------------------------------------------
+/** ----------------------------Adjust Service Gallery------------------- **/
+.container .gal {
+    margin-bottom: 10px;
+}
+
+.gallery-item {
+    padding: 10px;
+}
+
+/** ---------------------------- Max Width 991------------------- **/
 @media (max-width: 991px) {
     #promo {
         padding: 20px;
@@ -176,6 +186,7 @@ p {
     height: 280px;
 }
 
+/** ---------------------------- Max Width 600------------------- **/
 @media (max-width: 600px) {
     .carousel-inner .item img {
         background-color: #0058a8;
@@ -183,10 +194,11 @@ p {
         height: 130px;
     }
 
+    /** -----------------Adjust Get Started small view port------------------- **/
     .container .start {
         text-align: center;
         margin-top: 10px;
-        padding: 0px 15px 15px;
+        padding: 0px 15px 20px;
         background-color: 0058a8;
     }
 
