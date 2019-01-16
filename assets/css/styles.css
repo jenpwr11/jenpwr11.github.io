@@ -173,10 +173,18 @@ p {
     padding: 10px;
 }
 
+.testimonial.intro p {
+    font-size: 30px;
+}
+
 /** ---------------------------- Max Width 991------------------- **/
 @media (max-width: 991px) {
     #promo {
         padding: 20px;
+    }
+
+    .testimonial.intro p {
+        font-size: 20px;
     }
 }
 
