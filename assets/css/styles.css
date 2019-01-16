@@ -83,6 +83,29 @@ p {
     margin-top: 30px;
 }
 
+/** ---- ---------Start Testimonial Page----------- **/
+.testimonials-inner-section {
+    padding-right: 1px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.testimonials-inner-section p {
+    color: #000000;
+}
+
+.testimonials-inner-section h4 {
+    color: #000000;
+}
+
+.testimonials-inner-section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+}
+
 /** ---- roof cleaning page images----------- **/
 .container .bottom-image img {
     background-color: 0058a8;
