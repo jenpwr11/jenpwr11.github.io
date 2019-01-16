@@ -84,6 +84,11 @@ p {
 }
 
 /** ---- ---------Start Testimonial Page----------- **/
+.container.testimonials a {
+    color: #00FF00;
+    font-weight: bold;
+}
+
 .testimonials-inner-section {
     padding-right: 1px;
     margin: 10px;
