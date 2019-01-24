@@ -5,10 +5,10 @@ body {
     padding: 0px 10px;
 }
 
+/** -----------------------Adjust navbar------------------- **/
 .navbar {
-    color: red;
     margin-bottom: 1px;
-    padding-bottom: 1px;
+    padding-bottom: 20px;
 }
 
 /**
@@ -20,6 +20,7 @@ a navbar-brand {
     padding: 8px 4px;
 }
 
+/** -----------------------Adjust h1 h2 h3 p ------------------- **/
 h1 {
     color: #ffffff;
     margin-left: auto;
@@ -49,13 +50,25 @@ p {
     font-size: 15px;
 }
 
-.company-name {
-    color: #D8DCF1;
-    font-size: 32px;
+/** -----------------------Adjust header------------------- **/
+.home-page .company-name {
+    font-size: 62px;
+}
+
+.home-page .company-name-aft {
+    font-size: 36px;
+}
+
+.artillery {
+    font-size: 50px;
 }
 
 .company-name-aft {
     font-size: 16px;
+}
+
+.company-name-aft.artillery {
+    font-size: 26px;
 }
 
 .house-logo {
@@ -83,30 +96,63 @@ p {
     margin-top: 30px;
 }
 
-/** ---- roof cleaning page images----------- **/
-.container .bottom-image img {
-    background-color: 0058a8;
-    width: 440px;
-    height: 190px;
+/** -----------------------End Adjust header------------------- **/
+/** -----------------------Adjust pictures on pages------------------- **/
+.roof-fact img {
+    padding: 15px;
 }
 
-.container .top-image img {
-    background-color: 0058a8;
-    width: 440px;
-    height: 190px;
+.concrete-pics img {
+    padding: 15px;
 }
 
-/** ---- dropdown menu background color------- **/
+.generic .green-btn {
+    color: #fff!important;
+    background: #76C044;
+    padding: 15px 30px!important;
+    display: inline-block!important;
+    margin-top: 15px!important;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-decoration: none!important;
+    font-size: 17px!important;
+    font-weight: bold!important;
+    border-radius: 5px!important;
+}
+
+/** -----------------------Adjust deck page------------------- **/
+.wood-damage img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .top-image-deck {
+    margin-top: 20px;
+}
+
+.container .top-image-deck img {
+    background-color: 0058a8;
+    width: 740px;
+    height: 340px;
+}
+
+.deck {
+    padding: 10px;
+}
+
+/** -----------------------Adjust navbar------------------- **/
+/** ----------------- dropdown menu background color------- **/
 .navbar-nav>li>.dropdown-menu {
     background-color: #0077e6;
 }
 
-/** ---- dropdown text color------------------- **/
+/** ---------------- dropdown text color------------------- **/
 .navbar-default .navbar-nav .open .dropdown-menu>li>a {
     color: #ffffff;
 }
 
-/** ---- dropdown text color------------------ **/
+/** ----------------- dropdown text color------------------ **/
 .navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,
 .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
     color: #060000;
@@ -128,9 +174,72 @@ p {
 #promo {
     text-align: center;
     padding: 40px;
-    background: url(../../assets/img/up-on-roof.jpg) no-repeat;
+    background-color: 0058A8;
     background-size: cover;
     margin-top: 65px;
+}
+
+.jumbotron {
+    border-radius: 20px;
+    padding: 40px;
+    background-color: #0058A8;
+    max-width: ;
+    margin: auto;
+}
+
+.jumbotron p {
+    background-color: #0058A8;
+}
+
+.jumbotron h1 {
+    color: #ffffff;
+}
+
+/** -----------------------end adjust navbar header ------------------- **/
+/** ---- -------------------Start Testimonial Page----------- **/
+.testimonial.intro p {
+    font-size: 30px;
+}
+
+.container.testimonials a {
+    color: #00FF00;
+    font-weight: bold;
+}
+
+.testimonials-inner-section {
+    padding-right: 1px;
+    margin: 10px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.testimonials-inner-section p {
+    color: #000000;
+}
+
+.testimonials-inner-section h4 {
+    color: #000000;
+}
+
+.testimonials-inner-section img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px;
+}
+
+/** -----------------------end adjust testimonials ------------------- **/
+/** ---------------------- roof cleaning page images----------- **/
+.container .bottom-image img {
+    background-color: 0058a8;
+    width: 440px;
+    height: 190px;
+}
+
+.container .top-image img {
+    background-color: 0058a8;
+    width: 440px;
+    height: 190px;
 }
 
 /** ----------------------------Adjust Get Started------------------- **/
@@ -155,6 +264,10 @@ p {
     #promo {
         padding: 20px;
     }
+
+    .testimonial.intro p {
+        font-size: 20px;
+    }
 }
 
 #promo .jumbotron {
@@ -175,7 +288,7 @@ p {
     background-color: #d7e1f4;
 }
 
-/** ---------Carousel Image Size Adjustment------- **/
+/** --------------------Carousel Image Size Adjustment------- **/
 .cara {
     margin-bottom: 0px;
 }
@@ -194,7 +307,7 @@ p {
         height: 130px;
     }
 
-    /** -----------------Adjust Get Started small view port------------------- **/
+    /** -------------Adjust Get Started small view port----------- **/
     .container .start {
         text-align: center;
         margin-top: 10px;
@@ -202,16 +315,7 @@ p {
         background-color: 0058a8;
     }
 
-    /** ---- dropdown text color-------    
-.navbar-brand {
-    
-    display: none;
-    }
-    
-}
-
-**/
-    /** ---- End Carousel Image Size Adjustment------- **/
+    /** --------------Carousel Image Size Adjustment max width 600------- **/
     .container .two-image img {
         background-color: 0058a8;
         width: 440px;
@@ -242,11 +346,13 @@ p {
         color: #666;
     }
 
+    /** --------------------services adjust small----------- **/
     .services-wrapper img {
         width: 440px;
         height: 250px;
     }
 
+    /** --------------------Why us max 600------------------ **/
     #why .item {
         padding-top: 38px;
     }
@@ -267,6 +373,7 @@ p {
         color: #696e78;
     }
 
+    /** --------------------------End why us---------------- **/
     .navbar-inverse .navbar-nav > .active > a,
     .navbar-inverse .navbar-nav > .active > a:hover,
     .navbar-inverse .navbar-nav > .active > a:focus {
@@ -274,4 +381,9 @@ p {
         background-color: #257e5b;
         border-color: transparent;
     }
+}
+
+.artillery {
+    font-size: 50px;
+}
 }
