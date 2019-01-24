@@ -1,9 +1,7 @@
-body {
-    padding-top: 1rem;
-}
-
 .nb-footer {
-    padding: 3rem 1.5rem;
+    width: auto;
+    padding: 2rem ;
+    margin: 15px auto;
 }
 
 .jen-log {
@@ -12,8 +10,9 @@ body {
     padding-top: 2px;
 }
 
+/** -------------------This Adjusted footer background---------- **/
 footer.nb-footer {
-    background: #232126;
+    background: #0D2F4E;
     https: //codecanyon.net/;
     https: //codecanyon.net/;
     border-top: 4px solid #b78c33;
@@ -83,10 +82,11 @@ footer.nb-footer .footer-info-single {
 
 /** -------------------- section titles------- **/
 footer.nb-footer .footer-info-single .title {
-    color: #E4E6F0;
+    color: #FCEE5A;
     text-transform: uppercase;
     font-size: 16px;
-    text-align: left;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 /** ----------------------- links------- **/
@@ -102,6 +102,24 @@ footer.nb-footer .footer-info-single ul li a:hover {
     color: #b78c33;
 }
 
+.client-content {
+    margin-top: 30px;
+}
+
+.client-content .green-btn {
+    color: #fff!important;
+    background: #00abef;
+    padding: 15px 30px!important;
+    display: inline-block!important;
+    margin-top: 15px!important;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-decoration: none!important;
+    font-size: 17px!important;
+    font-weight: bold!important;
+    border-radius: 5px!important;
+}
+
 footer.nb-footer .copyright {
     background: #111;
     padding: 7px 0;
@@ -111,4 +129,5 @@ footer.nb-footer .copyright {
 footer.nb-footer .copyright p {
     margin: 0;
     padding: 0;
+}
 }
